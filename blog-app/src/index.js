@@ -1,9 +1,11 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import Hello from './App'
+import Post from './containers/PostContainer'
 import './App.css'
 
 ReactDOM.render(
-  <Hello name={'Student'}/>,
+  <Post
+
+  />,
   document.getElementById('root')
 )
